@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 ruby '2.1.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.7'
+gem 'rails', '4.1.15'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -43,7 +43,7 @@ gem 'devise'
 
 group :development, :test do
   # Use RSpec for testing: https://github.com/rspec/rspec-rails
-  gem 'rspec-rails', '~> 2.0'
+  gem 'rspec-rails', '~> 3.4.0'
   # Use Factory Girl for Active Record sample instance object creation: https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md
   gem 'factory_girl_rails'
   # Use FFaker for random seed generation: https://github.com/EmmanuelOga/ffaker
